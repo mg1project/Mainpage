@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 600px;
+  background: url("./background2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.nav {
+  width: 100%;
+  height: 60px;
+  text-align: right;
+  line-height: 60px;
+}
+.nav button {
+  color: #e6e6e6;
+  padding: 18px 0px 18px 0px;
+  margin: 0px 18px 0px 18px;
+  font-size: 18px;
+  border: none;
+  background: transparent;
+}
+.nav button:hover {
+  cursor: pointer;
+  border-bottom: solid 2px #e6e6e6;
+}
+
+.header h1 {
+  height: 60px;
+  vertical-align: center;
+  margin-top: 350px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  color: #FABE58;
+}
+
+.cb { clear: both; }
